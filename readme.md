@@ -99,7 +99,7 @@
 3. Create a div with a class of "hero-wrapper"
 4. Inside of the "hero-wrapper" div, create a div with a class of "text-wrapper"
 5. Inside of the "text-wrapper" div, add an h1 tag with a class of "hero-header". Add the text from [the design](./assets/form-section.png).
-6. Add a p tag that is a SIBLING to the h1 with the text from [the design](./assets/form-section.png).
+6. Add a p tag that is a SIBLING to the h1 with the text from [the design](./assets/form-section.pn<fog).
 7. Add a button tag that is a sibling to the p tag and the h1 with the text from [the design](./assets/form-section.png).
 8. Link the button to AnnieCannons.com
 9. Create a div with a class of "form-wrapper" that is a CHILD of the "hero-wrapper" div and a sibling of the "text-wrapper" div
