@@ -18,7 +18,7 @@
 4. For h4-h6, link more than one word to Google's home page.
 5. Google "attribute to open link in new browser tab HTML"
 6. Add an attribute to your h1 that will open the link in a new browser tab
-7. See what happens when you click the link in the browser!
+7. See what happens when you click the link in tAhe browser!
 8. STOP and head back to class
 
 ### Footer (buttons)
