@@ -139,7 +139,7 @@ button {
 
 .awards-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
-  height: 800px;
+  height: 1200px;
 }
 
 .awards-section-text {
@@ -149,11 +149,15 @@ button {
 .flex-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 2em 4em;
 }
 
+<<<<<<< HEAD
+.right-content-box{
+  width: 500px;
+=======
 .awards-section div {
   width: 80%;
 }
@@ -172,8 +176,10 @@ button {
   font-size: 1em;
   padding: 2em;
   border-radius: 10px;
+>>>>>>> 87966a4327e88add1fb98f688ec7c44ad2a99940
   position: relative;
-  left: 100px;
+  top: 150px;
+  right: 500px;
 }
 
 .left-content-box li {
@@ -181,8 +187,14 @@ button {
 
 }
 
+<<<<<<< HEAD
+.right-content-box p {
+  /* text-align: center; */
+  font-size: 200 em;
+=======
 .left-content-box p {
   font-size: 1.5em;
+>>>>>>> 87966a4327e88add1fb98f688ec7c44ad2a99940
   margin-top: 0px;
 }
 
