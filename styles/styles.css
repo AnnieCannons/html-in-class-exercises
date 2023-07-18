@@ -1,5 +1,5 @@
-/* FOR CSS MODULE 
-  Add border style rules that are at least 5 pixels and a color of your choice. 
+/* FOR CSS MODULE
+  Add border style rules that are at least 5 pixels and a color of your choice.
 
 */
 
@@ -154,20 +154,47 @@ button {
   padding: 2em 4em;
 }
 
+<<<<<<< HEAD
 .right-content-box{
   width: 500px;
+=======
+.awards-section div {
+  width: 80%;
+}
+
+.right-content-box img {
+  width: 400px;
+  z-index: 100;
+  position: relative;
+  top: 150px;
+  right: 75px;
+  border-radius: 10px;
+}
+
+.left-content-box {
+  background-color: #e9f8ff;
+  font-size: 1em;
+  padding: 2em;
+  border-radius: 10px;
+>>>>>>> 87966a4327e88add1fb98f688ec7c44ad2a99940
   position: relative;
   top: 150px;
   right: 500px;
 }
-.right-content-box li {
+
+.left-content-box li {
   margin-top: 1em;
-  
+
 }
 
+<<<<<<< HEAD
 .right-content-box p {
   /* text-align: center; */
   font-size: 200 em;
+=======
+.left-content-box p {
+  font-size: 1.5em;
+>>>>>>> 87966a4327e88add1fb98f688ec7c44ad2a99940
   margin-top: 0px;
 }
 
