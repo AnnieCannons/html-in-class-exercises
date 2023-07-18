@@ -7,17 +7,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Practice</title>
+    <title>Jiggii HTML Practice</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <nav>
-      
+      <img src="./assets/ac-logo.jpg" class="nav-logo" alt="logo for AnnieCannons"/>
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
     </nav>
     <section class="headers-section">
+      <h1>
+      <a href="https://github.com/jiggii" target="_blank">this</a> is an h1</h1>
+      <h2><a href="https://github.com/jiggii">this</a>  is an h2</h2>
+      <h3><a href="https://github.com/jiggii">this</a>  is an h3</h3>
+      <h4>this is <a href="https://www.google.com/"> an h4</a></h4>
+      <h5>this is <a href="https://www.google.com/"> an h5</a></h5>
+      <h6>this is <a href="https://www.google.com/"> an h6</a></h6>
     </section>
     <section class="hero-section">
-          <!-- ADD CODE HERE -->
+      <div class="hero-wrapper">
+        <div class="text-wrapper">
+          <h1 class="hero-header">Write inclusive software for the next generation</h1>
+          <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, 
+            and make sure to break things!</p>
+            <button><a href="https://anniecannons.org">LEARN MORE</a></button>
+        </div>
+        <div class="form-wrapper">
+          <h1>Request a Quote</h1>
+          <form>
+            <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+            <br>
+            <br>
+            <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+            <br>
+            <br>
+            <input type="text" name="email" id="email" placeholder="Email" required>
+            <br>
+            <br>
+            <select id="Select Budget Range" name="budget-range" required>
+              <option value="unselected" disabled selected>Select Button Range</option>
+              <option value="personal">Personal Budget</option>
+              <option value="professional">Professional Budget</option>
+              <option value="organizational">Organizational BUdget</option>
+            </select>
+            <br>
+            <div>
+              <br>
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
     <section class="about-section">
       <!-- <h1 class="section-header">About Us</h1> -->
@@ -40,10 +84,18 @@
     </section>
     <section class="gallery-section">
       <div class="gallery-text-wrapper">
-        
+        <h1>GALLERY</h1><br>
+        <p>These are the most beautiful photos in the world, all made possible by our amazing engineers.</p>
       </div>
       <div class="images-wrapper">
-        
+        <img src="./assets/gallery1.jpg" alt="a white boat docked at a curved bay, in front of glittering blue water
+        and near a big mountainous rock formation peaking near the top of the image"/>
+        <img src="./assets/gallery2.jpg" alt="rushing water around rocks"/>
+        <img src="./assets/gallery3.jpg" alt="boats in a canal surrounded by hills emerging from the water"/>
+        <img src="./assets/gallery4.jpg" alt="a pier in front of a mountain scenery during sunset hours; 
+        everything is highlighted with pinks and purples"/>
+        <img src="./assets/gallery5.jpg" alt="a lagoon with a deep blue oceanic drop-off and lush greenery"/>
+        <img src="./assets/gallery6.jpg" alt="a beach shore with a short mountain range in the distance"/>
       </div>
     </section>
     <section class="awards-section">
@@ -57,16 +109,41 @@
     <section class="divs parent-child-section section steps-section">
       <h1 class="section-header">Our Steps</h1>
       <div class="steps-wrapper">
+        <div class="steps-card">
+          <h1>1</h1>
+          <p>Give us a call! We will go over everything together and ensure you want to hire us.</p>
+        </div>
+        <div class="steps-card">
+          <h1>2</h1>
+          <p>Meet with our product team to determine your MVP, a product that will thrill your users.</p>
+        </div>
+        <div class="steps-card">
+          <h1>3</h1>
+          <p>Our in-house designers will create something that is both beautiful, functional, and user-friendly.</p>
+        </div>
+        <div class="steps-card">
+          <h1>4</h1>
+          <p>Our team will build the app of your dreams. We will take our time and pay close attention to every detail.</p>
+        </div>
       </div>
     </section>
     <section class="section certification-section">
       <div class="certification-process-wrapper">
         <h1 class="section-header">Our Certification Process</h1>
+        <ol>
+          <li>Internal testing</li>
+          <li>Beta testing with a small group</li>
+          <li>Make changes based on feedback</li>
+          <li>Present the software to the world!</li>
+        </ol>
       </div>
     </section>
     <section class="section footer-section">
       <div class="buttons-wrapper">
-       
+      <button>contact me!</button>
+      <button>learn more!</button>
+      <button>request info!</button>
+      <button class="button">donate!</button>
       </div>
     </section>
   </body>
