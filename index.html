@@ -7,21 +7,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Practice</title>
+    <title>Lai-La Vaughn</title>
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
     <nav>
-      
+     <img src="assets/ac-logo.jpg" class="nav-logo" alt="Anniecannons logo"/>
+     <ul>
+      <li>home</li>
+      <li>about</li>
+      <li>contact</li>
+     </ul>
     </nav>
     <section class="headers-section">
+      <h1> <a href="https://github.com/lai-luv/html-in-class-exercises"> this</a> is an h1
+      <h2>this is an h2</h2>
+      <h3>this is an h3</h3>
+      <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiU5-r8ufP_AhWjEVkFHZPkDqkQPAgJ">
+      <h4>thi is an h4</h4></a>
+      <h5>this is an h5</h5>
+      <h6>this is an h6</h6>
     </section>
     <section class="hero-section">
-          <!-- ADD CODE HERE -->
+      <div class="hero-wrapper">
+        <div class="text-wrapper">
+          <h1 class="hero-headeras">Writing inclusive software for the next generation </h1>
+          <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs,and make sure to brake things</p>
+          <a href="https://anniecannons.org/"><button>LEARN MORE</button></a>
+          </button></div>
+         <div class="form-wrapper">
+          <h1>Request a Quote</h1>
+          <form>
+            <input type="text" id="First Name" name="First Name"
+            required placeholder="First Name">
+
+            <input type="text" id="Last Nmae" name="Last Name"
+            required placeholder="Last Name">
+
+            <input type="text" id="Email" name="email"
+            required placeholder="Email">
+
+            <select id="budget-range" name="budget-range"required>
+              <option value="unselected"disabled required selected>select budget
+                -range</option>
+                <option value="personal">personal budget</option>
+                <option value="professional">professional budget</option>
+                <option value="organizational">organizational budget</option>  
+            </select>
+            <input type="submit" value="submit">
+
+          </form>
+         </div> 
+        
+      </div>
     </section>
     <section class="about-section">
       <!-- <h1 class="section-header">About Us</h1> -->
       <div class="about-wrapper">
+        
         <div class="about-img-wrapper">
           <img
             src="./assets/software-graphic.png"
@@ -40,33 +83,76 @@
     </section>
     <section class="gallery-section">
       <div class="gallery-text-wrapper">
-        
+        <h1>Gallery</h1>
+        <p>these are some beautiful and amazing photos of the world, all made possible by our very own engineers </p>
+      
       </div>
       <div class="images-wrapper">
+        <img src= "assets/gallery1.jpg" alt="clear blue sky with boat docked near sand dunes"/>
+        <img src="assets/gallery2.jpg"  alt="mountain tops with lots of clouds"/>
+        <img src="assets/gallery3.jpg"  alt="lots of boats in a bay of water"/>
+        <img src="assets/gallery4.jpg"  alt="cloudy sunset cascaded over mountain tops reflected on to a lake with a person standing on the dock"/>
+        <img src="assets/gallery5.jpg" alt="sky view of blue waters by cliff like sore"/>
+        <img src="assets/gallery6.jpg" alt="empty sandy beach with clear waters overseen by green hills"/>
+        <img src="assets/gallery7.jpg" alt="mountain tops with two goats near clear waters and a sunrise."/>
+        <img src="assets/gallery8.jpg"  alt="clear blue waters next to a rocky sore"/>
+        <img src="assets/gallery9.jpg"  alt="harbor of islands with many boats and houses "
         
       </div>
     </section>
     <section class="awards-section">
+      <h1 class="section-header">awards</h1>
+      <p class="awards-section-text">We have won many awards for our software.
+        here are just a few of them
+      </p>
       <div class="flex-wrapper">
-        <div class="left-content-box content-box">
-        </div>
-        <div class="right-content-box content-box">
-        </div>
+      <div class="left-content-box">
+        <p>Click <u>here</u> to ask chat GPT about each of these awards!</p>
+        <ul>
+          <li>best CSS</li>
+          <li>most thorough documents</li>
+          <li>number one solutions center </li>
+          <li>dedicated to talking our time</li>
+        </ul>
+      </div>
+      <div class="right-content-box">
+        <img src="assets/award.png"
+      </div>
+       
       </div>
     </section>
     <section class="divs parent-child-section section steps-section">
       <h1 class="section-header">Our Steps</h1>
       <div class="steps-wrapper">
-      </div>
+        <div class="steps-card">
+          <h1>1</h1><p>Give us a call! We will go over everything together 
+            and ensure you want to hire us. </p>
+          </div>
+         <div class="steps-card"> <h1>2</h1><p>"Meet with our product team to determine your MVP, a product
+           that will thrill your users</p></div> 
+           <div class="steps-card"><h1>3</h1><p>Our in-house designers will create something that is
+             both beautiful, functional, and user-friendly</p></div>
+             <div class="steps-card"><h1>4</h1><p>Our team will build the app of your dreams. We will take our time
+               and pay close attention to every detail."</p></div>
+         </div>
     </section>
     <section class="section certification-section">
       <div class="certification-process-wrapper">
         <h1 class="section-header">Our Certification Process</h1>
+        <ol>
+          <li>Internal testing</li>
+          <li>beta testing with small group</li>
+          <li>Make changes based on feedback</li>
+          <li>Present the software to the world!</li>
+        </ol>
       </div>
     </section>
     <section class="section footer-section">
       <div class="buttons-wrapper">
-       
+        <button>contact</button>
+        <button>learn</button>
+        <button>request</button>
+        <button>donate</button>
       </div>
     </section>
   </body>
