@@ -7,15 +7,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Practice</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Lavender</title>
+    <link rel="stylesheet" href="./styles/styles.css"/>
   </head>
   <body>
     <nav>
-      
+      <img src="./assets/ac-logo.jpg" class="nav-logo">
+      <ul> 
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul> 
     </nav>
-    <section class="headers-section">
+
+    <section class= "headers-section">
+      <h1>This is an H1</h1> <a href="https://github.com/TechBasedB/TechBasedB/blob/main/README.md" target="_blank">Lavender</a>
+      <h2>This is an H2</h2> <a href="https://github.com/TechBasedB/TechBasedB/blob/main/README.md" target="_blank">TechBasedB</a> 
+      <h3>This is an H3</h3> <a href="https://github.com/TechBasedB/TechBasedB/blob/main/README.md" target="_blank">Figure</a>
+
+      <h4>This is an H4</h4> <a href="https://www.google.com/" > Master in the making </a>
+      <h5>This is an H5</h5> <a href="https://www.google.com/" > What we've all been waiting for </a>
+      <h6>This is an H6</h6> <a href="https://www.google.com/" > Hello World, How do you do? </a>
     </section>
+  
+    
     <section class="hero-section">
           <!-- ADD CODE HERE -->
     </section>
@@ -25,11 +40,10 @@
         <div class="about-img-wrapper">
           <img
             src="./assets/software-graphic.png"
-            alt="hero image"
-          />
+            alt="hero image"/>
         </div>
         <div class="about-text-wrapper">
-          <h1>About Our Products</h1>
+          <h1>About Our Awesome Products</h1>
           <!-- add bulleted list, and numbered with top 5 reasons to hire us, etc -->
           <p>
             We make the best software around. We are also really fun to work
@@ -40,33 +54,73 @@
     </section>
     <section class="gallery-section">
       <div class="gallery-text-wrapper">
-        
+        <h1> GALLERY </h1> 
+        <p>These are the most beautiful photos in the world, all made possible by our amazing engineers.</p>
       </div>
       <div class="images-wrapper">
-        
+        <img src="./assets/gallery1.jpg" alt="An image of a white fishing boat on a deserted lake with low rocky mountains."/> 
+        <img src="./assets/gallery2.jpg" alt="An image of a view of some rocks coming out of a misting and steamy ocean of white wavy water."/> 
+        <img src="./assets/gallery3.jpg" alt="An image of a group of boats floating on top of a body of calm water in a canal of some green mountains."/> 
+        <img src="./assets/gallery4.jpg" alt="An image of a dock is reflected in a lake with mountains in the background, with a purple & red reflection coming from the sun."/> 
+        <img src="./assets/gallery5.jpg" alt="A image of an aerial view of a cliff overlooking the blue ocean cove."/> 
+        <img src="./assets/gallery6.jpg" alt="An image of a light orange sanded beach with blue water & mountains in the background."/> 
+        <img src="./assets/gallery7.jpg" alt="An image of a mountain with clouds in the background."/> 
+        <img src="./assets/gallery8.jpg" alt="A image showing the view of a ocean from the top of a cliff."/> 
+        <img src="./assets/gallery9.jpg" alt="An image of a man standing on top of a mountain overlooking a lake."/>  
       </div>
     </section>
+
     <section class="awards-section">
+      <h1 class="section-header">AWARDS</h1>
+      <p class="awards-section-text">We have won many awards for our software. Here are just a few of them.</p>
       <div class="flex-wrapper">
         <div class="left-content-box content-box">
-        </div>
-        <div class="right-content-box content-box">
+          <span>Click <u>here</u> to ask ChatGPT about each of these rewards!</span>
+          <ul>
+            <li>Best CSS!</li>
+            <li>Most thorough documentation.</li>
+            <li>#1 Creative Solutions Center</li>
+            <li>Dedicated to taking our time.</li>
+          </ul>
+        </div> 
+      </div>
+
+        <div class="right-content-box content-box"> 
+          <img src="./assets/award.png">
         </div>
       </div>
+        
+
+
+
     </section>
     <section class="divs parent-child-section section steps-section">
+      
       <h1 class="section-header">Our Steps</h1>
       <div class="steps-wrapper">
+        <div class="steps-card"><h1>1</h1> <p>Give us a call! We will go over everything together and ensure you want to hire us.</p></div> 
+        <div class="steps-card"><h1>2</h1> <p>Meet with our product team to determine your MVP, a product that will thrill your users.</p></div> 
+        <div class="steps-card"><h1>3</h1> <p>Our in-house designers will create something that is both beautiful, functional, and user-friendly.</p></div> 
+        <div class="steps-card"><h1>4</h1> <p>Our team will build the app of your dreams. We will take our time and pay close attention to every detail.</p></div> 
       </div>
     </section>
-    <section class="section certification-section">
+    <section class="certification-section">
       <div class="certification-process-wrapper">
         <h1 class="section-header">Our Certification Process</h1>
+        <ol>
+          <li>Internal testing</li>
+          <li>Beta testing with a small groups</li>
+          <li>Make changes based on feedback</li>
+          <li>Present the software to the world!</li>
+        </ol>
       </div>
     </section>
-    <section class="section footer-section">
-      <div class="buttons-wrapper">
-       
+    <section class="footer-section">
+      <div class="buttons-wrapper"> 
+        <button>Contact</button> 
+        <button>Learn</button> 
+        <button>Request</button>
+        <button>Donate</button>
       </div>
     </section>
   </body>
