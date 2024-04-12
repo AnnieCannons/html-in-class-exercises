@@ -14,12 +14,12 @@
 
 1. Read these instructions at least once before you begin
 2. Turn each one of your headers into a hyperlink using the link tag.
-   a. For h1-h3, link just one word. When the user clicks the link, it should take them to your github profile
-   b. For h4-h6, link more than one word to Google's home page.
-4. Google "attribute to open link in new browser tab HTML"
-5. Add an attribute to your h1 that will open the link in a new browser tab
-6. See what happens when you click the link in the browser!
-7. STOP and wait in your breakout room for us to start the next section.
+3. For h1-h3, link just one word. When the user clicks the link, it should take them to your github profile
+4. For h4-h6, link more than one word to Google's home page.
+5. Google "attribute to open link in new browser tab HTML"
+6. Add an attribute to your h1 that will open the link in a new browser tab
+7. See what happens when you click the link in the browser!
+8. STOP and wait in your breakout room for us to start the next section.
 
 ### Footer (buttons)
 
