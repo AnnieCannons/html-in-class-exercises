@@ -73,24 +73,6 @@
 4. Check out your code in the browser
 5. STOP and wait in your breakout room for us to start the next section.
 
-### Divs
-
-1. Read these instructions at least once before you begin
-2. Find the <section> with a class attribute that has a value of "parent-child-section"
-3. Write your code between the <div class="steps-wrapper"></div> tags.
-4. Add a div with a class of "steps-card"
-5. Inside of that div, use an h1 tag to put a **1** on the screen
-6. After the h1, add a paragraph with the following text: "Give us a call! We will go over everything together and ensure you want to hire us."
-7. Take a look in the browser!
-8. The h1 and the paragraph should be **siblings**. Their **parent** is the steps-wrapper div
-9. Make three more divs that have identical structure; look in the browser as you go
-10. For the second div, change the h1 so it renders a 2, and change the paragraph to say: "Meet with our product team to determine your MVP, a product that will thrill your users."
-11. For the third div, change the h1 so it renders a 3, and change the paragraph to say: "Our in-house designers will create something that is both beautiful, functional, and user-friendly."
-12. For the fourth div, change the h1 so it renders a 4, and change the paragraph to say: "Our team will build the app of your dreams. We will take our time and pay close attention to every detail."
-13. This is what your page should look like:
-    ![four divs with steps and content](./assets/div-section-design.png)
-14. STOP and wait in your breakout room for us to start the next section.
-
 ### HERO SECTION (h1, p, button, form)
 
 1. Read these instructions at least once before you begin
@@ -109,6 +91,26 @@
     i. the **first** option tag should have the following attributes: value, disabled, selected
     ii. the second and third option tags should have the following attributes: value
     c) the submit input tag should have the following attributes: type, value
+
+
+### Divs
+
+1. Read these instructions at least once before you begin
+2. Find the <section> with a class attribute that has a value of "parent-child-section"
+3. Write your code between the <div class="steps-wrapper"></div> tags.
+4. Add a div with a class of "steps-card"
+5. Inside of that div, use an h1 tag to put a **1** on the screen
+6. After the h1, add a paragraph with the following text: "Give us a call! We will go over everything together and ensure you want to hire us."
+7. Take a look in the browser!
+8. The h1 and the paragraph should be **siblings**. Their **parent** is the steps-wrapper div
+9. Make three more divs that have identical structure; look in the browser as you go
+10. For the second div, change the h1 so it renders a 2, and change the paragraph to say: "Meet with our product team to determine your MVP, a product that will thrill your users."
+11. For the third div, change the h1 so it renders a 3, and change the paragraph to say: "Our in-house designers will create something that is both beautiful, functional, and user-friendly."
+12. For the fourth div, change the h1 so it renders a 4, and change the paragraph to say: "Our team will build the app of your dreams. We will take our time and pay close attention to every detail."
+13. This is what your page should look like:
+    ![four divs with steps and content](./assets/div-section-design.png)
+14. STOP and wait in your breakout room for us to start the next section.
+
 
 ### Awards section (practice)
 
