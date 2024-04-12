@@ -13,7 +13,7 @@
 ### Headers section PART TWO (anchor tags)
 
 1. Read these instructions at least once before you begin
-2. Turn each one of your headers into a hyperlink using the link (a) tag.
+2. Turn each one of your headers into a hyperlink using the link `<a>` tag.
 3. For h1-h3, link just one word. When the user clicks the link, it should take them to your github profile
 4. For h4-h6, link more than one word to Google's home page.
 5. Google "attribute to open link in new browser tab HTML"
