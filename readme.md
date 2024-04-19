@@ -83,7 +83,7 @@
 8. Make three more `divs` that have identical structure; look in the browser as you go.
 9. For the second `<div>`, change the `<h1>` so it renders a 2, and change the paragraph to say: "Meet with our product team to determine your MVP, a product that will thrill your users."
 10. For the third `<div>`, change the `<h1>` so it renders a 3, and change the paragraph to say: "Our in-house designers will create something that is both beautiful, functional, and user-friendly."
-11. For the fourth `<div>`, change the h1 so it renders a 4, and change the paragraph to say: "Our team will build the app of your dreams. We will take our time and pay close attention to every detail."
+11. For the fourth `<div>`, change the `<h1>` so it renders a 4, and change the paragraph to say: "Our team will build the app of your dreams. We will take our time and pay close attention to every detail."
 12. This is what your page should look like:
     ![four divs with steps and content](./assets/div-section-design.png)
 13. To see your code, right-click your html file in vscode and click on 'open with live server'.
