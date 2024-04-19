@@ -77,7 +77,7 @@
 2. Write your code between the <div class="steps-wrapper"></div> tags.
 3. Add a `<div>` with a class of "steps-card."
 4. Inside of that `<div>`, use an `<h1>` tag to put a **1** on the screen.
-5. After the '<h1>`, add a paragraph with the following text: "Give us a call! We will go over everything together and ensure you want to hire us."
+5. After the `<h1>`, add a paragraph with the following text: "Give us a call! We will go over everything together and ensure you want to hire us."
 6. Take a look in the browser!
 7. The `<h1>` and the paragraph should be **siblings**. Their **parent** is the steps-wrapper `<div>`.
 8. Make three more `divs` that have identical structure; look in the browser as you go.
