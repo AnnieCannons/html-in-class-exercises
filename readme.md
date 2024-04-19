@@ -109,7 +109,7 @@
     c) The submit input tag should have the following attributes: type, value
 11. To see your code, right-click your html file in vscode and click on 'open with live server'.
 
-### Awards section (practice)
+### Awards Section (Practice)
 
 #### Read these instructions at least once before you begin.
 1. Check out the design below.
